@@ -1,0 +1,86 @@
+body {
+  background-color: #1c1c1c;
+}
+
+.text {
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.button {
+  background-color: #4cafff;
+  border-radius: 10px;
+
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 5px;
+  color: white;
+
+  outline-style: none;
+  border: none;
+  cursor: pointer;
+
+  margin-top: 25px;
+
+  min-width: 10%;
+
+  /* Disable text selection: https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Chrome, Opera and Firefox */
+
+  /* 
+      Prevent double-tapping on button from zooming page on mobile
+      https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action
+      */
+  touch-action: manipulation;
+}
+
+.footer {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-family: Helvetica, Arial, Sans-Serif;
+  touch-action: manipulation;
+  /* Disable text selection: https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Chrome, Opera and Firefox */
+  width: 99%;
+}
+
+.footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.input {
+  border: 1 solid #ffffff;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.textout {
+  font-family: monospace;
+  background-color: #0c0c0c;
+  width: 80%;
+  margin-left: 10%;
+  min-height: 20em;
+  align-self: center;
+  border-radius: 10px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.hidefile {
+  position: absolute;
+  left: -99999rem;
+}
